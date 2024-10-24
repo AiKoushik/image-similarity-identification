@@ -30,6 +30,7 @@ python app.py --original_folder <path_to_original_folder> --target_matching_fold
 ```
 
 Command Line Arguments
+```
 --original_folder: Path to the original folder containing images.
 --target_matching_folder: Path to the target matching folder containing images.
 --is_rotation: (Optional) Flag to apply rotation comparison.
@@ -37,8 +38,10 @@ Command Line Arguments
 --copy_images (Optional) Enable copying of best match images
 --crop_percentage: (Optional) Crop images from the center by a percentage (default is 100%, which means no crop).
 --save_result: (Optional) Flag to save the comparison results to a CSV file.
-To Do
-Adding threshold option for selecting and copying as best matched image.
+```
+
+## To-Do List
+- [ ] Adding threshold option for selecting and copying Best matched Image
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
